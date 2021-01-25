@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+#scaniflylogo {
+  max-height:10vh;
+  margin: 5vh 0 3vh 0;
+  padding: auto 0;
+}
+
+#results_cont {
+  height: 45rem;
+  overflow:scroll;
+}
+
+#results {
+  th, td {
+    min-width: 125px;
+  }
+}
